@@ -30,6 +30,7 @@ function Nav() {
                         <Link to='header' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='navbar-logo' onClick={closeMobileMenu}>
                             <img className='logo' src="Images/logo.png" alt="" />
                         </Link>
+                        <a className='logo-tel' href="tel:5125882677">512-588-2677</a>
                     </div>
                     <div class="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -66,7 +67,7 @@ function Nav() {
                             </Link>
                         </li>
                         <li className='nav-num nav-item'>
-                            <a className='nav-links' href="tel:+5125882677">512-588-2677</a>
+                            <a className='nav-links' href="tel:5125882677">512-588-2677</a>
                         </li>
                     </ul>
                     {/* {button && <QuoteButton className='getaquote'>Resume</QuoteButton>} */}
