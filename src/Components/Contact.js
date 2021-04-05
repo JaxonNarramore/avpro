@@ -11,7 +11,7 @@ export default function Contact() {
                 <div class="contact-container">
                     <div className='footer-logo'>
                         <Link to='header' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='contact-logo'>
-                            <img className='footLogo' src="Images/logo.png" alt="" />
+                            <img className='footLogo' src="Images/logo3.png" alt="" />
                         </Link>
                         <p className='fill-out-form'><Link className='fotf' to='quotes' activeClass="active" spy={true} smooth={true} offset={-75} duration={100} >Fill out the form</Link> above or <a className='number-link' href="tel:+5125882677">give us a call</a> for a free same day quote!</p>
                         <div className='icons'>
@@ -25,7 +25,7 @@ export default function Contact() {
                     </div>
                     <div className='about'>
                         <p className='contact-head'>About </p>
-                        <p className='abt-div'>We are a mobile audio installation service that specializes in anything with a 12-volt system. </p>
+                        <p className='abt-div'>We are an audio visual installation company servicing the greater Austin area</p>
                     </div>
                     <div className='contact'>
                         <p className='contact-head'>Contact</p>
@@ -46,12 +46,6 @@ export default function Contact() {
                         </Link>
                         <Link to='services' activeClass="active" spy={true} smooth={true} offset={-100} duration={100} className='contact-links'>
                             Our Services
-                        </Link>
-                        <Link to='installs' activeClass="active" spy={true} smooth={true} offset={-80} duration={100} className='contact-links'>
-                            Recent Installs
-                        </Link>
-                        <Link to='brands' activeClass="active" spy={true} smooth={true} offset={-100} duration={100} className='contact-links'>
-                            Our Brands
                         </Link>
                         <Link to='quotes' activeClass="active" spy={true} smooth={true} offset={-80} duration={100} className='contact-links'>
                             Get A Quote

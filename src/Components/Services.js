@@ -30,6 +30,8 @@ export default function Services() {
                     <img className='grid-image' src="Images/homeauto2.jpg" alt="" />
                     <p className='service-txt'>Home Automation</p>
                 </div>
+                <div className='grid-images'>
+                </div>
             </div>
         </div>
     )

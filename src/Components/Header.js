@@ -4,38 +4,31 @@ import './Header.css'
 
 export default function Header() {
     return (
-        <div>
+        <div className='whole-caro'>
             <div>
                 <Carousel fade={true} controls={false} className='carousel' indicators={false}>
-                    <Carousel.Item interval={10000}>
+                    <Carousel.Item interval={3000}>
                         <img
                             className="d-block w-100 carousel-image"
                             src="Images/caro1.jpeg"
                             alt="First slide"
                         />
                     </Carousel.Item>
-                    <Carousel.Item interval={10000}>
+                    <Carousel.Item interval={3000}>
                         <img
                             className="d-block w-100 carousel-image"
                             src="Images/caro2.jpeg"
                             alt="Second slide"
                         />
                     </Carousel.Item>
-                    <Carousel.Item interval={10000}>
-                        <img
-                            className="d-block w-100 carousel-image"
-                            src="Images/caro3.jpeg"
-                            alt="Third slide"
-                        />
-                    </Carousel.Item>
-                    <Carousel.Item interval={10000}>
+                    <Carousel.Item interval={3000}>
                         <img
                             className="d-block w-100 carousel-image"
                             src="Images/caro4.jpeg"
                             alt="Fourth slide"
                         />
                     </Carousel.Item>
-                    <Carousel.Item interval={10000}>
+                    <Carousel.Item interval={3000}>
                         <img
                             className="d-block w-100 carousel-image"
                             src="Images/caro5.JPG"

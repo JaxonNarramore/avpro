@@ -20,12 +20,12 @@
 }
 
 .carousel-image {
-    filter: brightness(60%);
+    filter: brightness(40%);
 }
 
 .header-txt {
     position: relative;
-    font-size: 80px;
+    font-size: 90px;
     text-align: center;
     color: white;
     bottom: -100px;
@@ -37,12 +37,12 @@
     display: flex;
     flex-direction: column;
     line-height: 100px;
-    margin-top: -600px;
+    margin-top: -650px;
 }
 
 .sub-header {
     position: relative;
-    font-size: 27px;
+    font-size: 30px;
     color: white;
     bottom: -100px;
     text-align: center;
@@ -52,7 +52,7 @@
 .header-buttons {
     display: flex;
     position: relative;
-    bottom: -100px;
+    bottom: -150px;
     justify-content: center;
     z-index: 2;
 }
@@ -61,6 +61,10 @@
     margin-left: 20px;
     margin-right: 20px;
     font-size: 25px;
+}
+
+.whole-caro {
+    background-color: rgba(1,1,1,255);
 }
 
 @media screen and (max-width: 1442px) {

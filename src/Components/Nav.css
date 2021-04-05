@@ -22,7 +22,7 @@
 .navbar-logo {
   color: #fff;
   justify-self: start;
-  margin-left: 30px;
+  margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
   display: flex;
@@ -30,9 +30,9 @@
 }
 
 .logo {
-  width: 280px;
-  margin-left: 300px;
-  margin-top: -42px;
+  width: 400px;
+  margin-left: 220px;
+  margin-top: 10px;
   filter: invert(100%);
 }
 .navbar-logo:hover {
@@ -53,6 +53,7 @@
   justify-content: end;
   margin-right: 920px;
   margin-top: 5px;
+  padding-left: 10px;
 }
 
 .nav-item {
