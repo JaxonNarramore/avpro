@@ -5,6 +5,7 @@
     width: 100%;
     display: block;
     position: absolute;
+    height: 107vh;
   }
   .carousel-inner .carousel-item:first-of-type {
     position: relative;
@@ -14,9 +15,8 @@
   }
 
 .carousel {
-    height: 145vh;
-    z-index: -1;
-    margin-top: -510px;
+    z-index: 1;
+    top: 90px;
 }
 
 .carousel-image {
@@ -29,6 +29,7 @@
     text-align: center;
     color: white;
     bottom: -100px;
+    z-index: 2;
     font-weight: 600;
 }
 
@@ -36,7 +37,7 @@
     display: flex;
     flex-direction: column;
     line-height: 100px;
-    padding-right: 450px;
+    margin-top: -600px;
 }
 
 .sub-header {
@@ -45,6 +46,7 @@
     color: white;
     bottom: -100px;
     text-align: center;
+    z-index: 2;
 }
 
 .header-buttons {
@@ -52,12 +54,61 @@
     position: relative;
     bottom: -100px;
     justify-content: center;
+    z-index: 2;
 }
 
 .header-buttons > button {
     margin-left: 20px;
     margin-right: 20px;
     font-size: 25px;
+}
+
+@media screen and (max-width: 1442px) {
+    .carousel {
+        margin-top: -140px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .carousel {
+        margin-top: -90px;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+
+}
+@media screen and (max-width: 1150px) {
+
+}
+@media screen and (max-width: 1060px) {
+    .carousel {
+        margin-top: -40px;
+    }
+}
+@media screen and (max-width: 945px) {
+    .carousel {
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width: 870px) {
+}
+
+@media screen and (max-width: 804px) {
+    .carousel {
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 780px) {
+}
+
+@media screen and (max-width: 700px) {
+
+}
+
+@media screen and (max-width: 414px) {
+
 }
 /* .header-container {
     background: url(header6.jpg) center center/cover no-repeat transparent;

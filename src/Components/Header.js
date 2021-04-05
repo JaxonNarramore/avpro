@@ -5,45 +5,54 @@ import './Header.css'
 export default function Header() {
     return (
         <div>
+            <div>
+                <Carousel fade={true} controls={false} className='carousel' indicators={false}>
+                    <Carousel.Item interval={10000}>
+                        <img
+                            className="d-block w-100 carousel-image"
+                            src="Images/caro1.jpeg"
+                            alt="First slide"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item interval={10000}>
+                        <img
+                            className="d-block w-100 carousel-image"
+                            src="Images/caro2.jpeg"
+                            alt="Second slide"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item interval={10000}>
+                        <img
+                            className="d-block w-100 carousel-image"
+                            src="Images/caro3.jpeg"
+                            alt="Third slide"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item interval={10000}>
+                        <img
+                            className="d-block w-100 carousel-image"
+                            src="Images/caro4.jpeg"
+                            alt="Fourth slide"
+                        />
+                    </Carousel.Item>
+                    <Carousel.Item interval={10000}>
+                        <img
+                            className="d-block w-100 carousel-image"
+                            src="Images/caro5.JPG"
+                            alt="Fourth slide"
+                        />
+                    </Carousel.Item>
+                </Carousel>
+            </div>
             <div className='txt-div'>
                 <p className='header-txt'>AUDIO VISUAL</p>
                 <p className='header-txt'>PROFESSIONALS</p>
                 <p className='sub-header'>AUSTIN AREA PREMIUM AUDIO VISUAL INSTALLATION SERVICES</p>
                 <div className='header-buttons'>
-                    {/* <button type="button" class="btn btn-outline-light">Get A Quote</button> */}
+                    <button type="button" class="btn btn-outline-light">Get A Quote</button>
                     <button type="button" class="btn btn-outline-light">Our Services</button>
                 </div>
             </div>
-            <Carousel fade={true} controls={false} className='carousel' indicators={false}>
-                <Carousel.Item interval={3000}>
-                    <img
-                        className="d-block w-100 carousel-image"
-                        src="Images/caro1.jpeg"
-                        alt="First slide"
-                    />
-                </Carousel.Item>
-                <Carousel.Item interval={3000}>
-                    <img
-                        className="d-block w-100 carousel-image"
-                        src="Images/caro2.jpeg"
-                        alt="Second slide"
-                    />
-                </Carousel.Item>
-                <Carousel.Item interval={3000}>
-                    <img
-                        className="d-block w-100 carousel-image"
-                        src="Images/caro3.jpeg"
-                        alt="Third slide"
-                    />
-                </Carousel.Item>
-                <Carousel.Item interval={3000}>
-                    <img
-                        className="d-block w-100 carousel-image"
-                        src="Images/caro4.jpeg"
-                        alt="Fourth slide"
-                    />
-                </Carousel.Item>
-            </Carousel>
         </div>
     )
 }
