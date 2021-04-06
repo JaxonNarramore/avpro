@@ -36,7 +36,7 @@
     display: flex;
     flex-direction: column;
     line-height: 100px;
-    margin-top: -800px;
+    margin-top: -640px;
 }
 
 .sub-header {
@@ -64,10 +64,19 @@
 
 .whole-caro {
     background-color: rgba(1,1,1,255);
-    display: inline-block;
     overflow: hidden;
-    height: 114vh;
+    height: 115vh;
     margin-top: -100px;
+}
+
+.header-container {
+    background: url(caro10.jpg) center center/cover no-repeat transparent;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+    height: 101vh;
 }
 
 @media screen and (max-width: 1442px) {
@@ -110,7 +119,7 @@
 
 @media screen and (max-width: 1110px) {
     .txt-div {
-        margin-top: -580px;
+        
     }
 }
 @media screen and (max-width: 1060px) {
@@ -125,29 +134,44 @@
 }
 @media screen and (max-width: 990px) {
     .txt-div {
-        margin-top: -550px;
+        
     }
 }
 
 @media screen and (max-width: 940px) {
     .txt-div {
-        margin-top: -670px;
-    }
-}
-
-@media screen and (max-width: 804px) {
-    .carousel {
-        height: 100vh;
+        
     }
 }
 
 @media screen and (max-width: 885px) {
     .sub-header {
         width: 800px;
+        margin: 0 auto;
     }
     
     .txt-div {
-        margin-top: -600px;
+        
+    }
+}
+
+@media screen and (max-width: 804px) {
+    .txt-div {
+        
+    }
+
+    .sub-header {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .header-buttons > button {
+        margin-top: 30px;
+    }
+
+    .whole-caro {
+        background-color: transparent;
+        visibility: hidden;
     }
 }
 
@@ -155,11 +179,47 @@
 }
 
 @media screen and (max-width: 700px) {
+    .txt-div {
+        
+    }
 
+    .header-txt {
+        font-size: 60px;
+    }
+
+    .sub-header {
+        font-size: 25px;
+    }
+
+    .header-buttons > button {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .txt-div {
+        
+    }
+
+    .header-txt {
+        font-size: 50px;
+    }
+
+    .sub-header {
+        font-size: 23px;
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .header-buttons > button {
+        margin-top: 30px;
+    }
 }
 
 @media screen and (max-width: 414px) {
-
+    .txt-div {
+        
+    }
 }
 /* .header-container {
     background: url(header6.jpg) center center/cover no-repeat transparent;

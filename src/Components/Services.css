@@ -81,7 +81,9 @@
 }
 
 @media screen and (max-width: 414px) {
-
+    .service-title {
+        font-size: 45px;
+    }
 }
 
 

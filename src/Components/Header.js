@@ -4,38 +4,40 @@ import './Header.css'
 
 export default function Header() {
     return (
-        <div className='whole-caro'>
-            <div>
-                <Carousel fade={true} controls={false} className='carousel' indicators={false}>
-                    <Carousel.Item interval={3000}>
-                        <img
-                            className="d-block w-100 carousel-image"
-                            src="Images/caro1.jpeg"
-                            alt="First slide"
-                        />
-                    </Carousel.Item>
-                    <Carousel.Item interval={3000}>
-                        <img
-                            className="d-block w-100 carousel-image"
-                            src="Images/caro2.jpeg"
-                            alt="Second slide"
-                        />
-                    </Carousel.Item>
-                    <Carousel.Item interval={3000}>
-                        <img
-                            className="d-block w-100 carousel-image"
-                            src="Images/caro4.jpeg"
-                            alt="Fourth slide"
-                        />
-                    </Carousel.Item>
-                    <Carousel.Item interval={3000}>
-                        <img
-                            className="d-block w-100 carousel-image"
-                            src="Images/caro5.JPG"
-                            alt="Fourth slide"
-                        />
-                    </Carousel.Item>
-                </Carousel>
+        <div class="header-container">
+            <div className='whole-caro'>
+                <div>
+                    <Carousel fade={true} controls={false} className='carousel' indicators={false}>
+                        <Carousel.Item interval={3000}>
+                            <img
+                                className="d-block w-100 carousel-image"
+                                src="Images/caro1.jpeg"
+                                alt="First slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item interval={3000}>
+                            <img
+                                className="d-block w-100 carousel-image"
+                                src="Images/caro2.jpeg"
+                                alt="Second slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item interval={3000}>
+                            <img
+                                className="d-block w-100 carousel-image"
+                                src="Images/caro4.jpeg"
+                                alt="Fourth slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item interval={3000}>
+                            <img
+                                className="d-block w-100 carousel-image"
+                                src="Images/caro5.JPG"
+                                alt="Fourth slide"
+                            />
+                        </Carousel.Item>
+                    </Carousel>
+                </div>
             </div>
             <div className='txt-div'>
                 <p className='header-txt'>AUDIO VISUAL</p>
@@ -46,6 +48,7 @@ export default function Header() {
                     <button type="button" class="btn btn-outline-light">Our Services</button>
                 </div>
             </div>
+
         </div>
     )
 }
