@@ -1,7 +1,5 @@
 .value-container {
     background-color: white;
-    padding-bottom: 250px;
-    padding-top: 290px;
 }
 
 .ati {
@@ -11,7 +9,6 @@
 .our-values {
     font-size: 55px;
     text-align: center;
-    padding-top: 30px;
     text-align: center;
     margin-top: 60px;
     color: black;
@@ -38,6 +35,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding-top: 50px;
 }
 
 .customer-satisfaction {
@@ -258,12 +256,9 @@
 @media screen and (max-width: 700px) {
 
     .value-statement {
-        width: 400px;
+        width: 600px;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    #first-value-head {
         line-height: 30px;
     }
 }
@@ -293,6 +288,9 @@
     }
     .e-image {
         width: 85px;
+    }
+    .value-statement {
+        width: 400px;
     }
 }
 

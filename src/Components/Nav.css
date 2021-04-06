@@ -153,8 +153,8 @@
 
   .navbar-logo {
     position: absolute;
-    margin-top: -145px;
-    left: -475px;
+    margin-top: -430px;
+    left: -460px;
     transform: translate(25%, 50%);
   }
 
@@ -201,8 +201,8 @@
   .logo-tel {
     position: absolute;
     top: 65px;
-    left: 45px;
-    font-size: 28px;
+    left: 50px;
+    font-size: 25px;
     color: white;
     text-decoration: none;
     visibility: visible;
@@ -287,16 +287,13 @@
 }
 
 @media screen and (max-width: 700px) {
-.logo {
+/* .logo {
   width: 250px;
   margin-left: 300px;
   margin-top: -25px;
-}
+} */
 
-.logo-tel {
-  left: 28px;
-  font-size: 28px;
-}
+
 }
 
 @media screen and (max-width: 380px) {

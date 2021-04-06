@@ -1,7 +1,7 @@
 .services-container {
     background-color: rgb(219, 219, 219);
     color: black;
-    margin-top: -240px;
+    margin-top: -7px;
     padding-bottom: 50px;
     padding-top: 50px;
 }
@@ -33,6 +33,55 @@
     font-size: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.divider {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1442px) {
+
+}
+
+@media screen and (max-width: 1400px) {
+
+}
+
+@media screen and (max-width: 1240px) {
+
+}
+@media screen and (max-width: 1150px) {
+
+}
+@media screen and (max-width: 1060px) {
+
+}
+@media screen and (max-width: 975px) {
+    .services {
+        grid-template-columns: repeat(2, auto);
+    }
+}
+@media screen and (max-width: 870px) {
+
+}
+
+@media screen and (max-width: 804px) {
+
+}
+
+@media screen and (max-width: 780px) {
+
+}
+
+@media screen and (max-width: 640px) {
+    .services {
+        grid-template-columns: repeat(1, auto);
+    }
+}
+
+@media screen and (max-width: 414px) {
+
 }
 
 

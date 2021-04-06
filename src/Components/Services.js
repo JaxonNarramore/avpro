@@ -5,6 +5,7 @@ export default function Services() {
     return (
         <div id='services' className='services-container'>
             <p className='service-title'>Our Services</p>
+            <hr className='divider' />
             <div class="services">
                 <div className='grid-images'>
                     <img className='grid-image' src="Images/hometheature.jpg" alt="" />
