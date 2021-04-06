@@ -131,7 +131,7 @@
   }
 
   .nav-menu.active {
-    background: rgba(1,1,1,255);
+    background: rgb(95, 95, 95);
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -286,25 +286,5 @@
 }
 }
 
-@media screen and (max-width: 700px) {
-/* .logo {
-  width: 250px;
-  margin-left: 300px;
-  margin-top: -25px;
-} */
-
-
-}
-
 @media screen and (max-width: 380px) {
-.logo {
-  width: 220px;
-  margin-left: 313px;
-  margin-top: -14px;
-}
-
-.logo-tel {
-  left: 28px;
-  font-size: 25px;
-}
 }
