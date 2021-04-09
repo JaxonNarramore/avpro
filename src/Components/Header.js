@@ -32,7 +32,7 @@ export default function Header() {
                         <Carousel.Item interval={3000}>
                             <img
                                 className="d-block w-100 carousel-image"
-                                src="Images/caro5.JPG"
+                                src="Images/caro5.jpg"
                                 alt="Fourth slide"
                             />
                         </Carousel.Item>
