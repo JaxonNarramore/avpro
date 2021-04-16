@@ -1,6 +1,6 @@
 # Audio Visual Professionals
 
-A-Z Landscape & Maintenance, LLC, is a family owned and operated commercial & residential landscape business serving central Texas and surrounding areas.
+AV Pros is a audio visual installation company servicing the greater austin area.
 
 ## [Live site](https://avpros.herokuapp.com/)
 
