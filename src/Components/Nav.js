@@ -37,17 +37,17 @@ function Nav() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to='values' activeClass="active" spy={true} smooth={true} offset={-50} duration={100} className='nav-links' onClick={closeMobileMenu}>
-                                Values
-                            </Link>
-                        </li>
-                        <li className='nav-item'>
-                            <Link to='services' activeClass="active" spy={true} smooth={true} offset={-45} duration={100} className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='services' activeClass="active" spy={true} smooth={true} offset={-55} duration={100} className='nav-links' onClick={closeMobileMenu}>
                                 Servcies
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='quotes' activeClass="active" spy={true} smooth={true} offset={-80} duration={100} className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='values' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='nav-links' onClick={closeMobileMenu}>
+                                Values
+                            </Link>
+                        </li>
+                        <li className='nav-item'>
+                            <Link to='quotes' activeClass="active" spy={true} smooth={true} offset={-90} duration={100} className='nav-links' onClick={closeMobileMenu}>
                                 Quote
                             </Link>
                         </li>
