@@ -82,9 +82,9 @@
 }
 
 .nav-links:hover {
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid rgb(0, 162, 255);
   transition: all 0.2s ease-out;
-  color: white;
+  color: rgb(0, 162, 255);
 }
 
 .fa-bars {
@@ -146,9 +146,8 @@
   }
 
   .nav-links:hover {
-    background-color: #fff;
-    color: rgba(1,1,1,255);
-    border-radius: 0;
+    border-bottom: 0px solid rgb(95, 95, 95);
+    color: rgb(0, 162, 255);
   }
 
   .navbar-logo {
@@ -206,6 +205,12 @@
     color: white;
     text-decoration: none;
     visibility: visible;
+  }
+
+  .logo-tel:hover {
+    border-bottom: 2px solid rgb(0, 162, 255);
+    transition: all 0.2s ease-out;
+    color: rgb(0, 162, 255);
   }
 }
 

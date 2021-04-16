@@ -44,10 +44,10 @@ export default function Header() {
                 <div className='txt-div'>
                     <p className='header-txt'>AUDIO VISUAL</p>
                     <p className='header-txt'>PROFESSIONALS</p>
-                    <p className='sub-header'>AUSTIN AREA PREMIUM AUDIO VISUAL INSTALLATION SERVICES</p>
+                    <p className='sub-header'>AUSTINS PREMIUM AUDIO VISUAL INSTALLATION SERVICE</p>
                     <div className='header-buttons'>
-                        <Link id='buttonid' to='quote' activeClass="active" spy={true} smooth={true} offset={-90} duration={100}><button type="button" class="btn btn-outline-light">Get A Quote</button></Link>
-                        <Link id='buttonid' to='servicez' activeClass="active" spy={true} smooth={true} offset={-90} duration={100}><button type="button" class="btn btn-outline-light">Our Services</button></Link>
+                        <Link id='buttonid' to='quotes' activeClass="active" spy={true} smooth={true} offset={-90} duration={100}><button type="button" class="btn btn-outline-light">Get A Quote</button></Link>
+                        <Link id='buttonid' to='services' activeClass="active" spy={true} smooth={true} offset={-45} duration={100}><button type="button" class="btn btn-outline-light">Our Services</button></Link>
                     </div>
                 </div>
                 <div className='quote-div'>
