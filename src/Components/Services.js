@@ -12,7 +12,7 @@ export default function Services() {
                     <p className='service-txt'>Home Theater Installation</p>
                 </div>
                 <div className='grid-images'>
-                    <img className='grid-image' src="Images/mounting.JPG" alt="" />
+                    <img className='grid-image' src="Images/mounting.jpg" alt="" />
                     <p className='service-txt'>TV Mounting</p>
                 </div>
                 <div className='grid-images'>
