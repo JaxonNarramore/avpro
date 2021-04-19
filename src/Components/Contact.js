@@ -32,8 +32,8 @@ export default function Contact() {
                         <a className='email-link' href="mailto: quotes@audio2goatx.com">
                             <p>quotes@audio2goatx.com</p>
                         </a>
-                        <a className='number-link' href="tel:+5125882677">
-                            <p>512-588-2677</p>
+                        <a className='number-link' href="tel:5122174388">
+                            <p>512-217-4388</p>
                         </a>
                     </div>
                     <div id='contact' class="explore">
