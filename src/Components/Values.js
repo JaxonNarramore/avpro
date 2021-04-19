@@ -41,7 +41,7 @@ export default function Values() {
                         <div className='plan-for-execution'>
                             <img className='pfe-image' src="https://static.wixstatic.com/media/fec686_c736adb6c3c7485a84d383a4f3471e8a~mv2.png/v1/fill/w_184,h_200,al_c,q_85,usm_0.66_1.00_0.01/creativity.webp" alt="" />
                             <p className='pfe-div'>
-                                We will take the time to asses and optimize each and every system, We will always find a solution for any issue.
+                                We will take the time to asess and optimize each and every system, We will always find a solution for any issue.
                             </p>
                         </div>
                     </div>
