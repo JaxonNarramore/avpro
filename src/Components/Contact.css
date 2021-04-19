@@ -18,6 +18,9 @@
     background-color: rgb(95, 95, 95);
     padding-top: 40px;
     padding-bottom: 40px;
+    position: absolute;
+    color: white;
+    width: 100%;
 }
 
 .icons {
@@ -61,11 +64,6 @@
     transition:.5s;
 }
 
-.whole-contact {
-    position: absolute;
-    color: white;
-    width: 100%;
-}
 
 .explore {
     display: flex;
