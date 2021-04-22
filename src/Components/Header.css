@@ -115,7 +115,7 @@
 
 @media screen and (height: 640px) {
     .header-wordz {
-        margin-top: 100px;
+        margin-top: -20px;
     }
 }
 
@@ -127,13 +127,11 @@
 
 @media screen and (height: 720px) {
     .header-txt {
-        font-size: 60px;
+        font-size: 55px;
     }
-}
 
-@media screen and (height: 823px) {
-    .header-wordz {
-        margin-top: -100px;
+    .txt-div {
+        margin-top: -120px;
     }
 }
 
@@ -145,16 +143,20 @@
 
 @media screen and (height: 1024px) {
     .header-wordz {
-        margin-top: -300px;
+        margin-top: 100px;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (MAX-WIDTH: 1024px) {
+    .header-wordz {
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 414px) {
     .sub-header {
-        width: 370px;
+        width: 340px;
         margin: 0 auto;
-        /* line-height: 60px; */
-        /* padding-bottom: 60px; */
         font-size: 23px;
         padding-top: 40px;
     }
@@ -168,5 +170,29 @@
 
     .header-container {
         height: 100vh;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .sub-header {
+        width: 370px;
+        margin: 0 auto;
+        font-size: 23px;
+        padding-top: 40px;
+    }
+
+    .header-txt {
+        font-size: 40px;
+        line-height: 0px;
+        margin-top: 50px;
+        padding-bottom: -30px;
+    }
+
+    .header-container {
+        height: 70vh;
+    }
+
+    #header1 {
+        margin-top: 90px;
     }
 }
