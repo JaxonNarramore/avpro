@@ -22,6 +22,8 @@
 .grid-images {
     text-align: center;
     align-items: center;
+    /* transform: translateX(300px);
+    animation: slideLeft 1s ease-in-out forwards 1s; */
 }
 
 .service-title {
@@ -39,6 +41,16 @@
     width: 80vw;
     margin: 0 auto;
 }
+
+@keyframes slideLeft {
+    0% {
+      transform: translateX(300px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+
 @media screen and (max-width: 975px) {
     .services {
         grid-template-columns: repeat(2, auto);

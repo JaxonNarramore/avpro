@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import './Services.css'
+import "animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default function Services() {
     return (
@@ -8,8 +10,11 @@ export default function Services() {
             <hr className='divider' />
             <div class="services">
                 <div className='grid-images'>
-                    <img className='grid-image' src="Images/hometheature.jpg" alt="" />
-                    <p className='service-txt'>Home Theater Installation</p>
+                    <ScrollAnimation animateIn='bounceInRight'
+                        animateOut='bounceOutLeft' animateOnce={true} initiallyVisible={false} duration={2}>
+                        <img className='grid-image' src="Images/hometheature.jpg" alt="" />
+                        <p className='service-txt'>Home Theater Installation</p>
+                    </ScrollAnimation>
                 </div>
                 <div className='grid-images'>
                     <img className='grid-image' src="Images/mounting.jpg" alt="" />

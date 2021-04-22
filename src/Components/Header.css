@@ -160,12 +160,6 @@
     }
 }
 
-@media screen and (MAX-WIDTH: 1024px) {
-    .header-wordz {
-        margin-top: 150px;
-    }
-}
-
 @media screen and (max-width: 414px) {
     .sub-header {
         width: 340px;
