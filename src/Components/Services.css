@@ -4,6 +4,7 @@
     margin-top: -7px;
     padding-bottom: 50px;
     padding-top: 50px;
+    z-index: 1000;
 }
 
 .services {

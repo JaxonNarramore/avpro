@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     background-color: rgb(219, 219, 219);
+    z-index: -2;
 }
 
 .wcu-img {

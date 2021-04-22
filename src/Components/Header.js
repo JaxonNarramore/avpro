@@ -5,7 +5,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function Header() {
     return (
-        <div class="header-container">
+        <div id='header' class="header-container">
             <div class="header-wordz">
                 <div className='txt-div'>
                     <p id='header1' className='header-txt'>AUDIO VISUAL</p>
