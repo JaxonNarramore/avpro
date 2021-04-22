@@ -42,3 +42,9 @@
       transform: translateY(0px);
     }
   }
+
+  @media screen and (max-width: 414px) {
+    .wcu-p {
+        width: 330px;
+    }
+}
