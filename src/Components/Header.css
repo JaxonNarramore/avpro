@@ -6,6 +6,8 @@
     bottom: -100px;
     z-index: 2;
     font-weight: 600;
+    transform: translateY(-300px);
+    animation: slideDown .8s ease-in-out forwards .8s;
 }
 
 .txt-div {
@@ -22,6 +24,8 @@
     bottom: -100px;
     text-align: center;
     z-index: 2;
+    transform: translateY(-400px);
+    animation: slideDown .7s ease-in-out forwards .7s;
 }
 
 .header-buttons {
@@ -60,6 +64,15 @@
 .quote-div {
     margin-top: -270px;
 }
+
+@keyframes slideDown {
+    0% {
+      transform: translateY(-300px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
 
 @media screen and (max-width: 940px) {
     .sub-header {

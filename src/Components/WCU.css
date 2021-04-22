@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: rgb(219, 219, 219);
 }
 
 .wcu-img {
@@ -13,6 +14,9 @@
 
 .wcu-div {
     text-align: center;
+    padding-bottom: 30px;
+    transform: translateY(300px);
+    animation: slideUp 1s ease-in-out forwards 1s;
 }
 
 #warrenty {
@@ -28,3 +32,12 @@
     width: 380px;
     margin: 0 auto;
 }
+
+@keyframes slideUp {
+    0% {
+      transform: translateY(300px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }

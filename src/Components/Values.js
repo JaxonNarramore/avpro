@@ -7,7 +7,7 @@ export default function Values() {
             <div class="allvalues">
                 <div class="everyvalue">
                     <div className='value1-container'>
-                        <p className='our-values'>Our Values</p>
+                        <p className='our-values'>OUR VALUES</p>
                         <hr className='divider' />
                         <div className='vs-container'>
                             <p id='first-value-head' className='value-statement'>

@@ -24,11 +24,11 @@ export default function Contact() {
                         </div>
                     </div>
                     <div className='about'>
-                        <p className='contact-head'>About </p>
+                        <p className='contact-head'>ABOUT </p>
                         <p className='abt-div'>We are an audio visual installation company servicing the greater Austin area</p>
                     </div>
                     <div className='contact'>
-                        <p className='contact-head'>Contact</p>
+                        <p className='contact-head'>CONTACT</p>
                         <a className='email-link' href="mailto: quotes@av-professionals.com">
                             <p>quotes@av-professionals.com</p>
                         </a>
@@ -37,7 +37,7 @@ export default function Contact() {
                         </a>
                     </div>
                     <div id='contact' class="explore">
-                        <p className='contact-head'>Explore</p>
+                        <p className='contact-head'>EXPLORE</p>
                         <Link to='header' activeClass="active" spy={true} smooth={true} offset={-100} duration={100} className='contact-links'>
                             Home
                         </Link>

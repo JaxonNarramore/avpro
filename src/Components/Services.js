@@ -4,7 +4,7 @@ import './Services.css'
 export default function Services() {
     return (
         <div id='services' className='services-container'>
-            <p className='service-title'>Services</p>
+            <p className='service-title'>SERVICES</p>
             <hr className='divider' />
             <div class="services">
                 <div className='grid-images'>
