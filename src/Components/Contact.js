@@ -25,7 +25,7 @@ export default function Contact() {
                     </div>
                     <div className='about'>
                         <p className='contact-head'>ABOUT </p>
-                        <p className='abt-div'>We are an audio visual installation company servicing the greater Austin area</p>
+                        <h3 className='abt-div'>We are an audio visual installation company servicing the greater Austin area</h3>
                     </div>
                     <div className='contact'>
                         <p className='contact-head'>CONTACT</p>

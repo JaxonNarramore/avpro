@@ -23,8 +23,6 @@
 .grid-images {
     text-align: center;
     align-items: center;
-    /* transform: translateX(300px);
-    animation: slideLeft 1s ease-in-out forwards 1s; */
 }
 
 .service-title {
@@ -34,8 +32,8 @@
 
 .service-txt {
     font-size: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .divider {

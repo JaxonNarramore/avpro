@@ -51,7 +51,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* top: -5px; */
     height: 67vh;
     background-size: cover;
 }
@@ -80,7 +79,6 @@
         margin: 0 auto;
         line-height: 50px;
         padding-bottom: 60px;
-        /* margin-top: 20px; */
     }
 
     .header-txt {
@@ -94,7 +92,6 @@
         margin: 0 auto;
         line-height: 60px;
         padding-bottom: 60px;
-        /* margin-top: 20px; */
     }
 
     .header-txt {

@@ -60,7 +60,6 @@ function Nav() {
                             <a className='nav-links' href="tel:5122174388">512-217-4388</a>
                         </li>
                     </ul>
-                    {/* {button && <QuoteButton className='getaquote'>Resume</QuoteButton>} */}
                 </div>
             </nav>
         </div>
