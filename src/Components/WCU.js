@@ -6,7 +6,7 @@ export default function WCU() {
         <div className='wcu-container'>
             <div className='wcu-div'>
                 <img className='wcu-img' src="Images/brain.png" alt="" />
-                <p className='wcu-h'>Expereience</p>
+                <p className='wcu-h'>Experience</p>
                 <p className='wcu-p'>All of our techniciians have multiple years of expierence in the industry</p>
             </div>
             <div className='wcu-div'>
