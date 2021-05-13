@@ -164,18 +164,26 @@
 .e-container {
     padding: 40px;
     padding-bottom: 60px;
+    transform: translateY(300px);
+    animation: slideUp 1s ease-in-out forwards 1s;
 }
 
 .pfe-container {
     padding: 40px;
+    transform: translateY(300px);
+    animation: slideUp 1s ease-in-out forwards 1s;
 }
 
 .i-container {
     padding: 40px;
+    transform: translateY(300px);
+    animation: slideUp 1s ease-in-out forwards 1s;
 }
 
 .cs-container {
     padding: 40px;
+    transform: translateY(300px);
+    animation: slideUp 1s ease-in-out forwards 1s;
 }
 
 .everyvalue {
@@ -183,6 +191,15 @@
     justify-content: center;
     flex-direction: column;
 }
+
+@keyframes slideUp {
+    0% {
+      transform: translateY(300px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
 
 @media screen and (max-width: 1150px) {
     .value-statement {
