@@ -28,7 +28,7 @@ function Nav() {
                 <div class="navbar-container">
                     <div class="logologo">
                         <Link to='header' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='navbar-logo' onClick={closeMobileMenu}>
-                            <img className='logo' src="Images/logo2.png" alt="" />
+                            <img className='logo' src="Images/logo2.png" alt="Audio Visual Professionals Logo" title="Audio Visual Professionals Logo" />
                         </Link>
                         <a className='logo-tel' href="tel:5122174388">512-217-4388</a>
                     </div>
