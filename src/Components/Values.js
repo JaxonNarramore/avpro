@@ -24,7 +24,7 @@ export default function Values() {
                             {/* <ScrollAnimation animateIn='bounceInUp' delay={100}
                                 animateOnce={true} initiallyVisible={false} duration={1.5}> */}
                             <p className='value-statement'>
-                                These values ensure that we maintain our outstanding status <span className='ati'>among the industry.</span>
+                                These values ensure that we maintain our outstanding status <span className='ati'>in the industry.</span>
                             </p>
                             {/* </ScrollAnimation> */}
                         </div>
@@ -54,7 +54,7 @@ export default function Values() {
                         <div className='plan-for-execution'>
                             <img className='pfe-image' src="https://static.wixstatic.com/media/fec686_c736adb6c3c7485a84d383a4f3471e8a~mv2.png/v1/fill/w_184,h_200,al_c,q_85,usm_0.66_1.00_0.01/creativity.webp" alt="Audio Visual Professionals Plan For Execution Core Value Emblem" title="Audio Visual Professionals Plan For Execution Core Value" />
                             <p className='pfe-div'>
-                                We take the time to asess and optimize each and every system. We can find a solution for any issue.
+                                We take the time to assess and optimize each and every system. We can find a solution to any issue.
                                 </p>
                         </div>
                     </div>
