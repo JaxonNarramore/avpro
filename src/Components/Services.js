@@ -9,11 +9,15 @@ export default function Services() {
             <hr className='divider' />
             <div class="services">
                 <div className='grid-images'>
-                    <img title="Custom AV Systems" className='grid-image' src="Images/customav.jpeg" alt="Custom AV Installation" title="Custom AV Installation" />
+                    <a href="https://www.customavrack.com/">
+                        <img title="Custom AV Systems" className='grid-image' src="Images/customav.jpeg" alt="Custom AV Installation" title="Custom AV Installation" />
+                    </a>
                     <h4 className='service-txt'>Custom AV Systems</h4>
                 </div>
                 <div className='grid-images'>
-                    <img title="Whole Home Audio" className='grid-image' src="Images/wholehome.jpg" alt="Whole Home Audio Installation" title="Whole Home Audio Installation" />
+                    <a href="https://www.crutchfield.com/S-Ghb3Ghx7iPm/m_196150/Multi-room-Audio.html">
+                        <img title="Whole Home Audio" className='grid-image' src="Images/wholehome.jpg" alt="Whole Home Audio Installation" title="Whole Home Audio Installation" />
+                    </a>
                     <h4 className='service-txt'>Whole Home Audio</h4>
                 </div>
                 <div className='grid-images'>
@@ -29,7 +33,9 @@ export default function Services() {
                     <h4 className='service-txt'>Security Camera Installation</h4>
                 </div>
                 <div className='grid-images'>
-                    <img title="" className='grid-image' src="Images/hometheature.jpg" alt="Home Theatre Installation" title="Home Theatre Installation" />
+                    <a href="https://www.crutchfield.com/S-nPard9UeeIB/brands/landingpages/hometheater.aspx">
+                        <img title="" className='grid-image' src="Images/hometheature.jpg" alt="Home Theatre Installation" title="Home Theatre Installation" />
+                    </a>
                     <h4 className='service-txt'>Home Theater Installation</h4>
                 </div>
             </div>

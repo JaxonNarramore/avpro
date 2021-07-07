@@ -18,7 +18,7 @@ export default function Contact() {
                             <a href="/" target='_blank'>
                                 <AiOutlineFacebook className='facebook' />
                             </a>
-                            <a href="/" target='_blank'>
+                            <a href="https://www.instagram.com/av_professionals/" target='_blank'>
                                 <SiInstagram className='instagram' />
                             </a>
                         </div>
